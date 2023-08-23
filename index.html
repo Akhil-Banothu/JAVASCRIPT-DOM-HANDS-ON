@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>DOM HANDS-ON</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h2>Question 1: Write the code to access element which is having id as "text"</h2>
+      <p id="text">DOM hands-on question 1</p>
+
+<hr>
+   <h2>Question 2: Write the code to access element which is having tag as "h1"</h2>
+      <h1 class="new">This is first Heading</h1>      
+      <h1 class="new">This is second Heading</h1>      
+      <h1 class="new">This is third Heading</h1>      
+
+<hr>
+   <h2>Question 3: Write the code to access element which is having class as "box"</h2>
+      <p class="box">This is a paragraph with class box</p>
+      <p id="box">This is a paragraph with id box</p>
+
+<hr>
+   <h2>Question 4: Change the heading from "Hello" to "Hello World" using DOM functions</h2>
+      <h1 id="change">Hello</h1>
+
+<hr>
+   <h2>Question 5: Create an HTML page having content as Hello world and a button named Replace Text. When user will click on this button page content should be changed to "Welcome to Elevation academy"</h2>
+      <p id="welcome">Hello World</p>
+      <button onclick="add()">Replace Text</button>
+
+<hr>
+   <h2>Question 6: Add one style attribute and give text color as red and id attribute and give the id value as ""heading"" in the above given h1 tag using DOM functions"
+      <h1 class="unique">Hello </h1>
+
+<hr>
+   <h2>Question 7: Create three cards on HTML page and arrange them using flex property in row or horizontal direction and also create button at the bottom named "Change Flex direction". When user clicks on this button, the cards arrangement should be changed to vertical direction.</h2>
+      <section>
+         <div class="same"><p class="special">box1</p></div>
+         <div class="same"><p class="special">box2</p></div>
+         <div class="same"><p class="special">box3</p></div>
+      </section>
+      <button id='center' onclick="add1()">Change Flex direction</button>
+
+<hr>
+   <h2>Question 8: What’s the difference between window vs document?</h2>
+      <h3>Window Object</h3>
+      <p>window object is the top most object in the DOM hierarchy. It represents the browsers frame that displays the contents of a webpage. Whenever a window appears on the screen to display the contents of the document, the window object is created.</p>
+      <p>Syntax:- <span>window.property-name;</span></p>
+      <p>Properties:-</p>
+      <ul>
+         <li>console</li>
+         <li>frames[]</li>
+         <li>History</li>
+         <li>Length</li>
+         <li>Location</li>
+         <li>Name</li>
+         <li>Window</li>
+      </ul>
+      <br>
+      <br>
+      <h3>Document Object</h3>
+      <p>Document Object represents a webpage that is loaded in the browser. By accessing the document object, we can access the elements in the HTML page. With the help of document objects, we can add dynamic content to our webpage</p>
+      <p>Syntax:- <span>document.property-name;</p>
+      <p>Properties:-</p>
+      <ul>
+         <li>links</li>
+         <li>images</li>
+         <li>scripts</li>
+         <li>body</li>
+         <li>anchor</li>
+         <li>activeElement</li>
+         <li>cookie</li>
+      </ul>
+   <script src="./script.js"></script>
+
+<hr>
+   <h2>Question 9: Write code to implement timer clock using JS -- display HH:MM:SS -- the time should keep updating every second</h2>
+      <h1 class='watch'></h1>
+</body>
+</html>

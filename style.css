@@ -1,0 +1,96 @@
+body {
+   font-family: monospace;
+}
+
+#text {
+   font-size: 25px;
+   margin-left: 6%;
+   margin-bottom: 5%;
+}
+
+.new {
+   margin-left: 6%;
+   margin-bottom: 5%;
+   font-size: 35px;
+}
+
+p {
+   font-size: 22px;
+   margin-bottom: 5%;
+   font-weight: 700;
+   margin-left: 6%;
+}
+
+#change {
+   margin-bottom: 5%;
+   margin-left: 6%;
+}
+
+button {
+   width: 200px;
+   height: 50px;
+   margin-bottom: 5%;
+   margin-left: 6%;
+   font-size: 22px;
+   background-color: white;
+   color: black;
+}
+
+button:hover {
+   background: black;
+   color: white;
+}
+
+.unique {
+   margin-left: 6%;
+   margin-bottom: 5%;
+   color: rgb(111, 76, 10);
+   font-size: 35px;
+}
+
+#heading {}
+
+section {
+   width: 100%;
+   height: 600px;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   margin-bottom: 5%;
+}
+
+.same {
+   width: 180px;
+   height: 180px;
+   background: black;
+   display: grid;
+   place-items: center;
+}
+
+.special {
+   color: white;
+   font-size: 25px;
+}
+
+#center {
+   margin-left: 45%;
+   width: 300px;
+}
+
+h3 {
+   font-size: 30px;
+   margin-left: 6%;
+}
+
+ul li {
+   margin-left: 6%;
+   font-size: 20px;
+}
+
+.watch {
+   text-align: center;
+   font-size: 35px;
+   letter-spacing: 6px;
+   color: black;
+   margin-top: 50px;
+}
